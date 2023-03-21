@@ -1,0 +1,2 @@
+F:\soudha\web api student pjct\E_store\E_store\obj\Debug\E_store.csproj.AssemblyReference.cache
+F:\soudha\web api student pjct\E_store\E_store\obj\Debug\E_store.csproj.CoreCompileInputs.cache
