@@ -1,0 +1,6 @@
+C:\Users\aitrich\Downloads\JWT_sample\DAL\bin\Release\DAL.dll
+C:\Users\aitrich\Downloads\JWT_sample\DAL\bin\Release\DAL.pdb
+C:\Users\aitrich\Downloads\JWT_sample\DAL\obj\Release\DAL.csproj.AssemblyReference.cache
+C:\Users\aitrich\Downloads\JWT_sample\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\aitrich\Downloads\JWT_sample\DAL\obj\Release\DAL.dll
+C:\Users\aitrich\Downloads\JWT_sample\DAL\obj\Release\DAL.pdb

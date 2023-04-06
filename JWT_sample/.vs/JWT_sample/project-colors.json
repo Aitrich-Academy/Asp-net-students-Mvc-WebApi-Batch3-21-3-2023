@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7c306122-9110-460a-9593-79de9aa7b311": {
+      "ProjectGuid": "7c306122-9110-460a-9593-79de9aa7b311",
+      "DisplayName": "JWT_sample",
+      "ColorIndex": 0
+    },
+    "40c92eda-9e24-4ab1-b31f-1cb8ceb33428": {
+      "ProjectGuid": "40c92eda-9e24-4ab1-b31f-1cb8ceb33428",
+      "DisplayName": "DAL",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
