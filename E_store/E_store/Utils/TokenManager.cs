@@ -1,6 +1,10 @@
-﻿using System;
+﻿using DAL.Models;
+using E_store.DTOs;
+using Microsoft.IdentityModel.Tokens;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Web;
@@ -11,11 +15,11 @@ namespace E_store.Utils
     {
         private static string Secret = "ERMN05OPLoDvbTTa/QkqLNMI3cPLguaRyHzyg7n5qNBVjQmtBhz4SzYh4NBVCXi3KJHlSXKP+oi2+bXr6CUYTR==";
 
-        public static string GenerateToken(UsersDTO UsersBO)
+        public static string GenerateToken(User UsersBO)
         {
             byte[] key = Convert.FromBase64String(Secret);
             SymmetricSecurityKey securityKey = new SymmetricSecurityKey(key);
-            int TokenExpiry = int.Parse(ConfigurationManager.AppSettings["TokenExpiry"]);
+            int TokenExpiry = 720;
             SecurityTokenDescriptor descriptor = new SecurityTokenDescriptor
             {
                 Issuer = "MyProjectName",

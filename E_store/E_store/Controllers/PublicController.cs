@@ -7,6 +7,8 @@ using System.Net.Http;
 using System.Net;
 using System.Web.Http;
 using System.Web.Http.ModelBinding;
+using DAL.Managers;
+using DAL.Models;
 
 namespace E_store.Controllers
 {
@@ -20,10 +22,24 @@ namespace E_store.Controllers
         {
             if (userDTO != null && ModelState.IsValid)
             {
-                var username = userDTO.Email;
-                var password = userDTO.Password;
+                string username = userDTO.Email;
+                string password = userDTO.Password;
                 // create manager class object and check if login exist and return data
-                return Request.CreateResponse(HttpStatusCode.OK, "");
+                LoginManager loginManager=new LoginManager();
+                User user= loginManager.Login(username, password);
+                if (user != null)
+                {
+                    string token = TokenManager.GenerateToken(user);
+                    LoginResponseDto loginresponse = new LoginResponseDto();
+                    loginresponse.Status = "True";
+                    loginresponse.Token = token;
+                    loginresponse.Name = user.Name;
+                    loginresponse.Role = user.Role  ;
+
+
+                    return Request.CreateResponse(HttpStatusCode.OK, loginresponse);
+                }
+                return Request.CreateResponse(HttpStatusCode.Unauthorized, "Login failed");
 
             }
             else
