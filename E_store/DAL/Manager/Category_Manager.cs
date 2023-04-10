@@ -17,6 +17,7 @@ namespace DAL.Manager
             var dummy = context.Categories.Where(e => e.Id == obj_cat.Id && e.Status != "D").SingleOrDefault();
             if (dummy == null)
             {
+
                 obj_cat.Status = "A";
                 context.Categories.Add(obj_cat);
                 result = context.SaveChanges();

@@ -16,6 +16,7 @@ namespace E_store.Controllers
     public class CategoryController : ApiController
     {
 
+
         [System.Web.Http.AcceptVerbs("POST", "PUT")]
         [System.Web.Http.HttpGet]
         [Route("Category_Insert")]
@@ -27,6 +28,7 @@ namespace E_store.Controllers
             AuthenticationHeaderValue authorization = Request.Headers.Authorization;
             if (authorization != null)
             {
+
                 User usersDTO = TokenManager.ValidateToken(authorization.Parameter);
                 if (usersDTO.Id != null && usersDTO.Role == "Admin")
                 {

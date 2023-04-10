@@ -1,0 +1,12 @@
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\bin\Debug\DAL.dll.config
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\bin\Debug\DAL.dll
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\bin\Debug\DAL.pdb
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\bin\Debug\EntityFramework.dll
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\bin\Debug\EntityFramework.xml
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\obj\Debug\DAL.dll
+C:\Users\aitrich\Desktop\main project\clone\Asp-net-students-Mvc-WebApi-Batch3-21-3-2023\E_store\DAL\obj\Debug\DAL.pdb

@@ -7,6 +7,7 @@ namespace E_store.Models
 {
     public class ENT_Category
     {
+
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
